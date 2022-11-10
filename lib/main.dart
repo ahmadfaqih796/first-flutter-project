@@ -21,10 +21,19 @@ class MyApp extends StatelessWidget {
           backgroundColor: const Color.fromARGB(255, 17, 193, 29),
         ),
         body: const Center(
-          child: Text('hallo namaku faqih'),
+          child: Text(
+            'hallo namaku faqih',
+            style: TextStyle(
+              fontSize: 20.0,
+              color: Colors.red,
+              fontWeight: FontWeight.bold,
+              letterSpacing: 2.0,
+            ),
+          ),
         ),
         floatingActionButton: FloatingActionButton(
-          onPressed: () {  },
+          onPressed: () {},
+          backgroundColor: Colors.green,
           child: const Text('click'),
         ),
       ),
